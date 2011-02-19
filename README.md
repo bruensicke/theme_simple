@@ -122,7 +122,7 @@ These inline-Tabs are shown on the upper right.
 			<span><span>highlights</span></span>
 		</li>
 		<li>
-			<span><span><a title="view all projects" href="/en/projects/all">all</a></span></span>
+			<span><span><a title="view all items" href="/all">all</a></span></span>
 		</li>
 	</ul>
 	<article>
