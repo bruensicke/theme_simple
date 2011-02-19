@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8"/>
@@ -13,6 +13,7 @@
 		'app',
 	));
 	echo $this->Html->script(array(
+		'https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js',
 		'theme',
 		'app',
 	));
@@ -42,6 +43,5 @@
 		</footer>
 	</div>
 	<?php echo $this->element('sql_dump'); ?>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
 </body>
 </html>
