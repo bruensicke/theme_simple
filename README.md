@@ -34,6 +34,10 @@ Simple Theme can easily be developed without CakePHP running or PHP parsing at a
 All Assets (js, css, img) should be loaded as usual and you can change markup to your likings and see how they render. Please notice, that changes to the markup will not reflect the themes layouts within CakePHP. It is more a preview of how assets will be rendered.
 Therefore, to change something crucial, you have to work within the folders `/css`, `/js` or `/img`. Make sure to reference every other asserts relative, so both access methods remain intact.
 
+## Elements
+
+We created elements below `elements`-folder, that checks for APP versions of that file. If they do exist, it includes this one.
+
 ## Markup
 
 Have a look at the following markups, to get a clue of what this layout is about.
@@ -57,19 +61,6 @@ This is just the main-markup without head and the rest.
 			<?php echo $this->element('footer'); ?>
 		</footer>
 	</div>
-
-### header.ctp
-
-We suggest the following `elements/header.ctp` in the app:
-
-	echo $this->element('nav.main');
-	echo $this->element('content_start');
-
-### flash.ctp
-
-We suggest the following `elements/flash.ctp` in the app:
-
-	echo $this->Session->flash();
 
 ### 3 columns
 

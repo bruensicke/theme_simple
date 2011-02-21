@@ -3,21 +3,12 @@
 <head>
 	<meta charset="utf-8"/>
 	<?php
-	echo $this->Html->tag('title', String::insert(Configure::read('App.title'), Set::flatten(array_merge(Configure::read('App'), array('title' => $title_for_layout)))));
-	echo $this->Html->meta('keywords', Configure::read('App.keywords'));
-	echo $this->Html->meta('description', Configure::read('App.description'));
 	echo $this->Html->meta('icon');
-
-	echo $this->Html->css(array(
-		'theme',
-		'app',
-	));
-	echo $this->Html->script(array(
-		'https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js',
-		'theme',
-		'app',
-	));
-
+	echo $this->Html->tag('title', String::insert(Configure::read('App.Settings.title'), Set::flatten(array_merge(Configure::read('App.Settings'), array('title' => $title_for_layout)))));
+	echo $this->Html->meta('keywords', Configure::read('App.Settings.keywords'));
+	echo $this->Html->meta('description', Configure::read('App.Settings.description'));
+	echo $this->Html->css(Configure::read('App.Settings.styles'));
+	echo $this->Html->script(Configure::read('App.Settings.scripts'));
 	echo $scripts_for_layout;
 	?>
 	<!--[if lt IE 9]>
