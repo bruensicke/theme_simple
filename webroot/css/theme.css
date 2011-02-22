@@ -1,3 +1,2 @@
-@import url('less.css'); /* less-framework4, see http://lessframework.com */
 @import url('cake.css'); /* extracted and modified content from cake.generic.css for better cake-support */
-@import url('layout.css'); /* holds all layout-specific styles (where is what) */
+@import url('test.css'); /* holds all layout-specific styles (where is what) */
