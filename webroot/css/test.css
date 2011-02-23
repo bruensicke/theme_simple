@@ -240,9 +240,6 @@ a:hover, a:active {
 
 pre {
   padding: 15px;
-  white-space: pre;
-  white-space: pre-wrap;
-  white-space: pre-line;
   word-wrap: break-word;
 }
 
@@ -299,14 +296,6 @@ button {
   background: white;
   z-index: 5;
   position: relative;
-}
-
-.ir {
-  text-indent: -119988px;
-  overflow: hidden;
-  text-align: left;
-  direction: ltr;
-  background-repeat: no-repeat;
 }
 
 .hidden {
