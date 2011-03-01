@@ -1,2 +1,3 @@
 @import url('cake.css'); /* extracted and modified content from cake.generic.css for better cake-support */
-@import url('test.css'); /* holds all layout-specific styles (where is what) */
+@import url('test.css'); /* holds basic structure for less */
+@import url('layout.css'); /* holds all layout-specific styles (where is what) */

@@ -1,0 +1,60 @@
+p.intro {
+	color: #797C80;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 1.3em;
+	margin-bottom: 2em;
+}
+
+.totop {
+	border-top: 1px solid #DBDBDB;
+	clear: both;
+	margin-bottom: 10px;
+	margin-top: 40px;
+	padding: 18px 0px 38px;
+	position: relative;
+	font-size: 11px;
+	width: 100%;
+}
+
+.totop a {
+	float: right;
+	color: #08C;
+}
+
+.divider {
+	clear: both;
+	height: 4px;
+	width: 100%;
+	background: url('../img/divider.jpg') no-repeat;
+	margin-bottom: 51px;
+	margin-top: 25px;
+}
+
+.section {
+	clear: both;
+	padding-bottom: 30px;
+}
+
+img.left {
+	float: left;
+	margin: 2px 20px 16px 0px;
+}
+
+img.right {
+	float: right;
+	margin: 2px 0px 16px 20px;
+}
+
+ul.toc {
+	display: block;
+	list-style: none outside;
+	margin-bottom: 16px;
+	clear: both;
+}
+
+ul.toc li {
+	display: block;
+	float: left;
+	width: 30%;
+}
