@@ -1758,7 +1758,7 @@ nav ul li {
   background-color: #ededed;
   background-repeat: no-repeat;
   background-position: bottom center;
-  background-image: url(../img/inlinetab_bottom.png);
+  background-image: url('../img/inlinetab_bottom.png');
 }
 .inlineTabs li.current span span {
   background-color: #ededed;
@@ -1771,7 +1771,7 @@ nav ul li {
 }
 
 #footer {
-  border-top: 1px dotted #999999;
+  border-top: 1px solid #999999;
   padding-top: 24px;
   margin: 48px 0;
   *zoom: 1;
