@@ -193,7 +193,7 @@ pre, code, kbd, samp {
 }
 
 body, select, input, textarea {
-  color: black;
+  color: #000;
   background: #e8e8e8;
 }
 
@@ -265,13 +265,13 @@ label, input[type=button], input[type=submit], button {
 
 ::-moz-selection {
   background: #5e99ff;
-  color: black;
+  color: #000;
   text-shadow: none;
 }
 
 ::selection {
   background: #5e99ff;
-  color: black;
+  color: #000;
   text-shadow: none;
 }
 
@@ -577,7 +577,7 @@ body {
     display: block;
     width: 100%;
     margin: 0 0 24px 0;
-    border-top: 1px dotted #999999;
+    border-top: 1px inline #ccc;
     padding-top: 24px;
   }
   #page .col3 .col.first {
@@ -625,7 +625,7 @@ body {
     width: 100%;
     margin: 0;
     padding: 6px 0 6px 0;
-    border-top: 1px dotted #999999;
+    border-top: 1px inline #ccc;
   }
   #page .people li .people-pic {
     width: 50px;
@@ -773,7 +773,7 @@ body {
     width: 100%;
     padding: 0;
     margin: 0 0 24px 0;
-    border-top: 1px dotted #999999;
+    border-top: 1px inline #ccc;
     padding-top: 24px;
   }
   #page .col3 .col:first-child,
@@ -1154,13 +1154,13 @@ body {
 }
 .huge span, h1 span {
   display: block;
-  color: black;
+  color: #000;
 }
 
 .huge {
   text-transform: none;
   font-weight: normal;
-  color: black;
+  color: #000;
   width: 72%;
   margin: 1.5em 0;
 }
@@ -1566,7 +1566,7 @@ figcaption {
 }
 
 .posts article {
-  border-top: 1px dotted #999999;
+  border-top: 1px inline #ccc;
   padding-top: 24px;
   *zoom: 1;
 }
@@ -1601,12 +1601,11 @@ ul.nav {
   padding: 0;
   border: 0;
   outline: 0;
+  list-style: none outer;
   overflow: hidden;
   *zoom: 1;
 }
 ul.nav li {
-  list-style-image: none;
-  list-style-type: none;
   margin-left: 0px;
   white-space: nowrap;
   display: inline;
@@ -1625,7 +1624,38 @@ ul.nav li {
   padding: 0;
 }
 ul.nav li a {
-  color: black;
+  color: #000;
+}
+
+/* generic vertial link list */
+ul.vert {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none outer;
+  overflow: hidden;
+  *zoom: 1;
+}
+ul.vert li {
+  white-space: nowrap;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+ul.vert li:first-child, ul.vert li.first {
+  padding-left: 0;
+}
+ul.vert li:last-child, ul.vert li.last {
+  padding-right: 0;
+}
+ul.vert li {
+  margin-right: 24px;
+  padding: 0;
+  display: block;
+  float: none;
+}
+ul.vert li a {
+  color: #000;
 }
 
 ul.pager {
@@ -1665,15 +1695,14 @@ ul.pager li.active a {
 }
 
 nav {
-  text-transform: lowercase;
   font-family: "ff-unit-web-1", "ff-unit-web-2", "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
 }
 nav a, nav a:visited, nav a:hover, nav a:active {
-  color: black;
+  color: #000;
   height: 100%;
 }
 nav .active {
-  color: black;
+  color: #000;
   font-weight: bold;
 }
 nav ul {
@@ -1752,7 +1781,7 @@ nav ul li {
   padding: 5px 10px;
 }
 .inlineTabs li span span a {
-  color: black;
+  color: #000;
 }
 .inlineTabs li.current {
   background-color: #ededed;
@@ -1922,7 +1951,7 @@ a.icon,
   left: 48px;
 }
 .label_container a.label {
-  color: black;
+  color: #000;
 }
 .label_container a.label:hover {
   color: #59f;
@@ -1959,7 +1988,7 @@ header .toggle-background {
   padding: 5px 10px;
   text-indent: 0;
   overflow: visible;
-  color: black;
+  color: #000;
   background-color: #ededed;
   background-image: none;
   -moz-border-radius: 3px;
@@ -2081,7 +2110,7 @@ textarea {
 
 input:hover, textarea:hover,
 input:focus, textarea:focus {
-  color: black;
+  color: #000;
   border-color: #c9c9c9;
 }
 
@@ -2284,7 +2313,7 @@ input:focus, textarea:focus {
   float: left;
 }
 .p-posts article {
-  border-top: 1px dotted #999999;
+  border-top: 1px inline #ccc;
   padding-top: 24px;
   *zoom: 1;
 }
@@ -2397,7 +2426,7 @@ input:focus, textarea:focus {
 .social div.LinkedIn:hover dt,
 .social div.Flickr:hover dt,
 .social div.Delicious:hover dt {
-  color: black;
+  color: #000;
 }
 .social div.Twitter:hover dd a,
 .social div.Xing:hover dd a,
