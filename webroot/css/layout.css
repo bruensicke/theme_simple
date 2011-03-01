@@ -1,3 +1,7 @@
+body {
+	background: #E8E8E8 url('../img/body_bg.jpg') repeat;
+}
+
 p.intro {
 	color: #797C80;
 	font-size: 18px;
@@ -19,7 +23,7 @@ p.intro {
 
 .totop a {
 	float: right;
-	color: #08C;
+	color: #59f;
 }
 
 .divider {
@@ -34,6 +38,11 @@ p.intro {
 .section {
 	clear: both;
 	padding-bottom: 30px;
+}
+
+.subsection {
+	clear: both;
+	margin-bottom: 40px;
 }
 
 img.left {
