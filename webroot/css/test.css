@@ -189,7 +189,7 @@ select, input, textarea, button {
 }
 
 pre, code, kbd, samp {
-  font-family: monospace, sans-serif;
+	font-family: monospace, sans-serif;
 }
 
 body, select, input, textarea {
@@ -239,8 +239,10 @@ a:hover, a:active {
 }
 
 pre {
-  padding: 15px;
-  word-wrap: break-word;
+	padding: 15px;
+	word-wrap: break-word;
+	color: #eee;
+	background: rgb(60,60,60);;
 }
 
 input[type="radio"] {
@@ -301,12 +303,6 @@ button {
 .hidden {
   display: none;
   visibility: hidden;
-}
-
-.visuallyhidden {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
 }
 
 .clearfix {
@@ -780,15 +776,6 @@ body {
   #page .col3 .col.double:first-child {
     border: none;
     padding-top: 0;
-  }
-  #page #manifesto {
-    display: none;
-  }
-  #page #manifesto-full {
-    display: block;
-  }
-  #page #manifesto-full a.trigger {
-    display: none;
   }
   #page .projects {
     width: 436px;
@@ -2092,13 +2079,12 @@ form {
 }
 
 input, textarea {
-  padding: 9px;
-  border: solid 1px #e5e5e5;
-  outline: 0;
-  width: 200px;
-  background: white;
-  color: #999999;
-  vertical-align: middle;
+	padding: 8px;
+	border: solid 1px #e5e5e5;
+	outline: 0;
+	background: #fff;
+	color: #999999;
+	vertical-align: middle;
 }
 
 textarea {
@@ -2115,163 +2101,50 @@ input:focus, textarea:focus {
 }
 
 .form label {
-  margin-left: 10px;
-  color: #999999;
+	margin-left: 10px;
+	color: #999;
 }
 
-.submit input, .submit {
-  width: auto;
-  padding: 9px 15px;
-  background: #59f;
-  border: 0;
-  color: white;
-  vertical-align: middle;
+.submit input, input.submit {
+	width: auto;
+	padding: 9px 15px;
+	background: #59f;
+	border: 0;
+	color: #fff;
+	vertical-align: middle;
 }
-.submit input:hover, .submit:hover {
-  color: white;
-  text-decoration: none;
-}
-
-#main-feature {
-  margin-bottom: 48px;
-  position: relative;
-  display: block;
-}
-#main-feature article {
-  position: absolute;
-}
-#main-feature article a {
-  vertical-align: top;
+.submit input:hover, input.submit:hover {
+	color: #fff;
+	text-decoration: none;
+	background: #37d;
 }
 
-#main-feature-nav {
-  margin-top: -30px;
-  margin-bottom: 18px;
-}
-#main-feature-nav nav.dots {
-  display: table;
-  margin: 0 auto;
-}
-#main-feature-nav nav.dots ul {
-  height: 10px;
-}
-#main-feature-nav nav.dots ul li {
-  width: 10px;
-  cursor: pointer;
-  height: 10px;
-  background-image: url(../img/slideshow_navigation_dots.gif);
-  background-repeat: no-repeat;
-  margin: 0px 4px;
-}
-#main-feature-nav nav.dots ul li:hover {
-  background-position: -10px 0;
-}
-#main-feature-nav nav.dots ul li.active {
-  background-position: -20px 0;
-}
-#main-feature-nav nav.buttons {
-  display: block;
-  height: 35px;
-  text-align: center;
-}
-#main-feature-nav nav.buttons a.previous, #main-feature-nav nav.buttons a.next {
-  display: inline-block;
-  width: 35px;
-  height: 35px;
-  color: white;
-  background-image: url(/assets/icons/slideshow_nav_buttons.png);
-  background-repeat: no-repeat;
-  cursor: pointer;
-}
-#main-feature-nav nav.buttons a.previous:hover, #main-feature-nav nav.buttons a.next:hover {
-  background-position: 0 -35px;
-}
-#main-feature-nav nav.buttons a.next {
-  background-position: -35px 0px;
-}
-#main-feature-nav nav.buttons a.next:hover {
-  background-position: -35px -35px;
+div.input label {
+	display: block;
 }
 
-#main-feature-wrapper {
-  position: relative;
-  overflow: visible;
-}
-#main-feature-wrapper a.slide_previous, #main-feature-wrapper a.slide_next {
-  display: none;
-  width: 35px;
-  height: 35px;
-  background-image: url(/assets/icons/slideshow_nav_buttons.png);
-  background-repeat: no-repeat;
-  cursor: pointer;
-  position: absolute;
-}
-#main-feature-wrapper a.slide_next {
-  left: -22px;
-  background-position: 0 -35px;
-  z-index: 1000;
-}
-#main-feature-wrapper a.slide_previous {
-  right: -22px;
-  background-position: -35px -35px;
-  z-index: 1001;
+div.checkbox label,
+div.radio label {
+	display: inline;
+	padding: 0 20px 0 8px;
 }
 
-#manifesto {
-  padding: 24px;
-  background-color: #59f;
-  margin-bottom: 48px;
-  color: white;
-}
-#manifesto ol {
-  list-style: none;
-}
-#manifesto ol li {
-  list-style-image: none;
-  list-style-type: none;
-  margin-left: 0px;
-}
-#manifesto ol, #manifesto li {
-  margin: 0;
-  padding: 0;
-  display: inline;
-}
-#manifesto a.trigger {
-  background-position: -440px -200px;
-  float: right;
-  height: 28px;
-  vertical-align: top;
-  width: 28px;
+div.checkbox fieldset legend,
+div.radio fieldset legend {
+	font-size: 1.2em;
 }
 
-#manifesto-full {
-  padding: 24px;
-  background-color: #59f;
-  margin-bottom: 48px;
-  color: white;
+div.input {
+	margin-bottom: 15px;
 }
-#manifesto-full ol {
-  list-style: none;
-}
-#manifesto-full ol li {
-  list-style-image: none;
-  list-style-type: none;
-  margin-left: 0px;
-}
-#manifesto-full ol, #manifesto-full li {
-  margin: 0;
-  padding: 0;
-}
-#manifesto-full h2 {
-  display: inline;
-}
-#manifesto-full a.trigger {
-  background-position: -440px -240px;
-  width: 28px;
-  height: 28px;
-  float: right;
-  vertical-align: top;
-}
+
+
+
+
+
+
+
+
 
 .profile,
 .p-profile {
