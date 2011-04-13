@@ -7,7 +7,7 @@ p.intro {
 	font-size: 18px;
 	font-weight: normal;
 	line-height: 1.3em;
-	margin-bottom: 2em;
+	margin-bottom: 1.2em;
 }
 
 .totop {
@@ -32,7 +32,7 @@ p.intro {
 	width: 100%;
 	background: url('../img/divider.jpg') no-repeat;
 	margin-bottom: 51px;
-	margin-top: 25px;
+	margin-top: 15px;
 }
 
 .section {
@@ -59,7 +59,6 @@ ul.toc {
 	display: block;
 	list-style: none outside;
 	margin-bottom: 16px;
-	clear: both;
 }
 
 ul.toc li {
