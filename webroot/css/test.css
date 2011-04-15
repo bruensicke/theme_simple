@@ -202,12 +202,12 @@ html {
 }
 
 a, a:active, a:visited {
-  color: #59f;
+  color: #e50050;
   text-decoration: none;
 }
 
 a:hover {
-  color: #59f;
+  color: #e50050;
   text-decoration: underline;
 }
 
@@ -266,19 +266,19 @@ label, input[type=button], input[type=submit], button {
 }
 
 ::-moz-selection {
-  background: #5e99ff;
+  background: #ff5e99;
   color: #000;
   text-shadow: none;
 }
 
 ::selection {
-  background: #5e99ff;
+  background: #ff5e99;
   color: #000;
   text-shadow: none;
 }
 
 a:link {
-  -webkit-tap-highlight-color: #5e99ff;
+  -webkit-tap-highlight-color: #ff5e99;
 }
 
 button {
@@ -1137,7 +1137,7 @@ body {
   margin-bottom: 0.8em;
   text-transform: lowercase;
   font-weight: bold;
-  color: #59f;
+  color: #e50050;
 }
 .huge span, h1 span {
   display: block;
@@ -1670,7 +1670,7 @@ ul.pager li:last-child, ul.pager li.last {
   padding-right: 0;
 }
 ul.pager li.active {
-  background-color: #59f;
+  background-color: #e50050;
 }
 ul.pager li.active a {
   color: white;
@@ -1941,7 +1941,7 @@ a.icon,
   color: #000;
 }
 .label_container a.label:hover {
-  color: #59f;
+  color: #e50050;
   text-decoration: none;
   cursor: pointer;
 }
@@ -1986,13 +1986,13 @@ header .toggle-background {
   border-radius: 3px;
 }
 header .toggle-background:hover {
-  color: #59f;
-  background-color: #59f;
+  color: #e50050;
+  background-color: #e50050;
   background-image: none;
 }
 header .toggle-background:hover span {
   color: white;
-  background-color: #59f;
+  background-color: #e50050;
   background-image: url(../img/toggle_background.png);
   background-position: -28px -30px;
 }
@@ -2108,7 +2108,7 @@ input:focus, textarea:focus {
 .submit input, input.submit {
 	width: auto;
 	padding: 9px 15px;
-	background: #59f;
+	background: #e50050;
 	border: 0;
 	color: #fff;
 	vertical-align: middle;
@@ -2306,7 +2306,7 @@ div.input {
 .social div.LinkedIn:hover dd a,
 .social div.Flickr:hover dd a,
 .social div.Delicious:hover dd a {
-  color: #59f;
+  color: #e50050;
 }
 
 #twitter {
